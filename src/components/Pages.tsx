@@ -72,19 +72,22 @@ export const CoverPage = () => {
             <h4 className="font-bold text-[#FFFFFF] mb-6 uppercase tracking-wider text-xl">Áreas Interdisciplinarias</h4>
             <ul className="space-y-3 font-light tracking-wide text-gray-200">
               <li onClick={() => navigateTo(2)} className="cursor-pointer group flex justify-between items-end border-b border-white/20 pb-1 hover:border-[#D4AF37] transition-colors">
-                <span className="group-hover:text-[#D4AF37] transition-colors">Estudios Sociales</span> <span className="font-bold text-[#D4AF37]">Pág 3</span>
+                <span className="group-hover:text-[#D4AF37] transition-colors">Educación Física (Danza Chola Cuencana)</span> <span className="font-bold text-[#D4AF37]">Pág 3</span>
               </li>
               <li onClick={() => navigateTo(3)} className="cursor-pointer group flex justify-between items-end border-b border-white/20 pb-1 hover:border-[#D4AF37] transition-colors">
-                <span className="group-hover:text-[#D4AF37] transition-colors">Ciencias Naturales</span> <span className="font-bold text-[#D4AF37]">Pág 4</span>
+                <span className="group-hover:text-[#D4AF37] transition-colors">Estudios Sociales</span> <span className="font-bold text-[#D4AF37]">Pág 4</span>
               </li>
               <li onClick={() => navigateTo(4)} className="cursor-pointer group flex justify-between items-end border-b border-white/20 pb-1 hover:border-[#D4AF37] transition-colors">
-                <span className="group-hover:text-[#D4AF37] transition-colors">ECA</span> <span className="font-bold text-[#D4AF37]">Pág 5</span>
+                <span className="group-hover:text-[#D4AF37] transition-colors">Ciencias Naturales</span> <span className="font-bold text-[#D4AF37]">Pág 5</span>
               </li>
               <li onClick={() => navigateTo(5)} className="cursor-pointer group flex justify-between items-end border-b border-white/20 pb-1 hover:border-[#D4AF37] transition-colors">
-                <span className="group-hover:text-[#D4AF37] transition-colors">Matemáticas</span> <span className="font-bold text-[#D4AF37]">Pág 6</span>
+                <span className="group-hover:text-[#D4AF37] transition-colors">ECA (Cultura y Arte)</span> <span className="font-bold text-[#D4AF37]">Pág 6</span>
               </li>
               <li onClick={() => navigateTo(6)} className="cursor-pointer group flex justify-between items-end border-b border-white/20 pb-1 hover:border-[#D4AF37] transition-colors">
-                <span className="group-hover:text-[#D4AF37] transition-colors">Inglés</span> <span className="font-bold text-[#D4AF37]">Pág 7</span>
+                <span className="group-hover:text-[#D4AF37] transition-colors">Matemáticas</span> <span className="font-bold text-[#D4AF37]">Pág 7</span>
+              </li>
+              <li onClick={() => navigateTo(7)} className="cursor-pointer group flex justify-between items-end border-b border-white/20 pb-1 hover:border-[#D4AF37] transition-colors">
+                <span className="group-hover:text-[#D4AF37] transition-colors">Inglés</span> <span className="font-bold text-[#D4AF37]">Pág 8</span>
               </li>
             </ul>
           </div>

@@ -6,6 +6,7 @@
 import { Magazine as LenguaPage } from './components/Magazine';
 import { Layout } from './components/Layout';
 import { CoverPage } from './components/Pages';
+import { EducacionFisicaPage } from './components/EducacionFisica';
 import { 
   SocialesPage, 
   CienciasPage, 
@@ -18,6 +19,7 @@ export default function App() {
   const pages = [
     { id: 'cover', title: 'Portada e Índice', component: <CoverPage /> },
     { id: 'lengua', title: 'Lengua y Literatura', component: <LenguaPage /> },
+    { id: 'edfisica', title: 'Educación Física (Danza Chola Cuencana)', component: <EducacionFisicaPage /> },
     { id: 'sociales', title: 'Estudios Sociales', component: <SocialesPage /> },
     { id: 'ciencias', title: 'Ciencias Naturales', component: <CienciasPage /> },
     { id: 'eca', title: 'ECA (Cultura y Arte)', component: <ECAPage /> },

@@ -1,6 +1,6 @@
 {
   "name": "Remix Revista Digital Cuenca",
-  "description": "Revista digital académica interactiva sobre lengua, literatura e identidad cultural cuencana, enfocada en el Parque Calderón.",
+  "description": "Revista digital académica interactiva sobre lengua, literatura, educación física y danza tradicional, e identidad cultural cuencana, enfocada en el Parque Calderón.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
