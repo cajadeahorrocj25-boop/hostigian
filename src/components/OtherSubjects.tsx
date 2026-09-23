@@ -211,6 +211,18 @@ export const MatemáticasPage = () => (
         Fase 3: Aplicación del Teorema de Pitágoras
       </h3>
 
+      {/* Image Evidence for Pythagoras */}
+      <div className="my-6 border-4 border-[#800020] p-2 bg-white shadow-sm">
+        <img 
+          src="https://photos.wikimapia.org/p/00/05/42/68/43_big.jpg" 
+          alt="Parque Calderón - Geometría y Senderos" 
+          className="w-full h-auto max-h-[350px] object-cover"
+        />
+        <p className="text-center font-sans text-xs uppercase tracking-widest text-gray-600 mt-2 py-1 border-t border-gray-200">
+          Figura 3. Disposición geométrica y senderos ortogonales del Parque Calderón
+        </p>
+      </div>
+
       <div className="bg-amber-50/40 border-l-4 border-[#D4AF37] p-5 mb-6 text-gray-800 font-serif">
         <h4 className="font-sans font-bold uppercase text-sm text-[#800020] mb-2 flex items-center gap-2">
           <Compass size={18} /> Problema Original 3: Distancias Trigonométricas en la Plaza
@@ -246,7 +258,77 @@ export const MatemáticasPage = () => (
 );
 
 export const ECAPage = () => <Placeholder title="Área 4: ECA (Educación Cultural)" />;
-export const InglesPage = () => <Placeholder title="Área 6: Inglés" />;
+export const InglesPage = () => (
+  <div className="mb-24">
+    <div className="flex flex-col items-center justify-center py-12 mb-16 border-y-4 border-[#800020] bg-white text-center">
+      <span className="text-xs font-bold uppercase tracking-widest bg-[#D4AF37] text-[#800020] px-3 py-1 mb-3 font-sans">
+        Gastronomic Culture & Local Spots
+      </span>
+      <h2 className="text-3xl md:text-5xl font-serif font-black uppercase tracking-widest text-[#800020]">
+        Área 6: Inglés - Bonsai Sushi Cuenca (Norte)
+      </h2>
+    </div>
+
+    <Section id="bonsai-sushi-ingles" title="Bonsai Sushi Cuenca (Norte)" subject="Asian-Fusion & Local Dining">
+      <div className="my-6 border-4 border-[#800020] p-2 bg-white shadow-sm break-inside-avoid">
+        <img 
+          src="https://kommodo.ai/i/kkgE8LOUB4E8vPkM2ss9" 
+          alt="Bonsai Sushi Cuenca Norte Interior" 
+          className="w-full h-auto max-h-[400px] object-cover"
+        />
+        <p className="text-center font-sans text-xs uppercase tracking-widest text-gray-600 mt-2 py-1 border-t border-gray-200">
+          Interior and Bar Area - Bonsai Sushi Cuenca (Norte)
+        </p>
+      </div>
+
+      <p className="mb-6">
+        <span className="float-left text-7xl leading-[0.8] pr-3 pt-2 font-black font-serif text-[#800020]">B</span>
+        onsai Sushi Cuenca (Norte) is a popular Japanese and Asian-fusion spot in northern Cuenca. People really like it for its fresh ingredients, great presentation, and friendly service.
+      </p>
+
+      {/* Flag of Japan */}
+      <div className="my-8 max-w-sm mx-auto border-2 border-gray-300 p-2 bg-white shadow-sm break-inside-avoid">
+        <img 
+          src="/flag_of_japan.jpg" 
+          alt="Flag of Japan" 
+          className="w-full h-auto object-cover"
+        />
+        <p className="text-center font-sans text-xs uppercase tracking-widest text-gray-600 mt-2 py-1 border-t border-gray-200">
+          Symbol of Japanese Gastronomic Heritage
+        </p>
+      </div>
+
+      <h3 className="font-bold uppercase tracking-widest text-2xl mt-8 mb-4 font-sans text-[#800020] break-inside-avoid">
+        Food & Drinks
+      </h3>
+      <p className="mb-6">
+        They offer a solid variety of sushi rolls (the <strong>Alaska</strong> and <strong>Alaska Special</strong> are customer favorites), ramen, Pad Thai, salads, and starters. They also have cocktails, beers, wine, and house drinks.
+      </p>
+
+      <h3 className="font-bold uppercase tracking-widest text-2xl mt-8 mb-4 font-sans text-[#800020] break-inside-avoid">
+        Vibe & Atmosphere
+      </h3>
+      <p className="mb-6">
+        Modern, cozy, and casual—great for hanging out with friends, a casual date, or just grabbing a solo bite.
+      </p>
+
+      <h3 className="font-bold uppercase tracking-widest text-2xl mt-8 mb-4 font-sans text-[#800020] break-inside-avoid">
+        Services & Location
+      </h3>
+      <p className="mb-6">
+        <strong>Services:</strong> You can dine in, pick up takeaway, or get delivery. They have a full bar, take credit cards, and accept reservations.
+      </p>
+      <p className="mb-6">
+        <strong>Location:</strong> Super convenient—just a short walk from Tranvía stops, with easy parking options nearby.
+      </p>
+
+      <div className="bg-amber-50/40 border-l-4 border-[#D4AF37] p-6 mt-8 font-serif italic text-gray-800">
+        <strong className="not-italic font-sans text-xs uppercase tracking-widest text-[#800020] block mb-1">Culinary Recommendation</strong>
+        "Fresh ingredients, exceptional presentation, and a cozy modern atmosphere make Bonsai Sushi Cuenca (Norte) a must-visit dining destination in the city."
+      </div>
+    </Section>
+  </div>
+);
 
 const Placeholder = ({ title }: { title: string }) => (
   <div className="h-full flex flex-col pt-8 bg-white min-h-[60vh]">
